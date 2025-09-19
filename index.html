@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> places_in_india </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #FFDCDC;
+            }
+             header{
+                position: fixed;
+                top: 0px;
+                width:100%;
+                background-color: #9ABF80;
+        }
+            nav{
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                box-shadow: 1px 1px 10px burlywood;
+                align-items: center;
+                padding: 10px;
+            }
+            
+            a{
+                margin-right: 40px;
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+
+            h1{
+                font-family: "Alkatra", system-ui;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+            }
+
+            nav img{
+                width: 400px;
+                height: 60px;
+                border-radius: 20px;
+            }
+
+            #home{
+                border-radius: 8px;
+                box-shadow: 1px 1px 10px burlywood;
+                padding: 20px;
+                margin-top: 90px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+				align-content:space-evenly;
+            }
+
+            .w{
+                width: 700px;
+            }
+            img{
+                width: 400px;
+                height: 250px;
+                border-radius: 10px;
+            }
+
+            #hero_card{
+                border-radius: 8px;
+                box-shadow: 1px 1px 10px burlywood;
+                display: flex;
+                justify-content: space-around;
+				align-items: center;
+				align-content:space-evenly;
+                padding: 20px;
+                align-items: center;
+                margin-top: 8px;
+            }
+            #down{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+
+            #post{
+                border-radius: 8px;
+                box-shadow: 1px 1px 10px burlywood;
+                padding: 20px;
+                margin-top: 8px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+				align-content:space-around;
+				flex-wrap:wrap;
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                border-radius: 8px;
+                box-shadow: 1px 1px 10px;
+                width: 250px;
+                overflow: hidden;
+                padding: 10px;
+                background-color: #D0DDD0; 
+            }
+            .cards:hover{
+                transform: scale(1.05);
+            }
+			.read:hover{
+                transform: scale(1.05);
+            }
+            .cards img{
+                width: 250px;
+                height: 150px;
+                border-radius: 0px;
+            }
+            .cards h3,p{
+                       margin-top: 0;
+            }
+            
+            footer{
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                box-shadow: 1px 1px 10px burlywood;
+                align-items: baseline;
+                padding: 20px;
+                margin-top: 8px;
+                background-color: #BBD8A3;
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+                <img src="logo.jpeg">
+                
+                <div>
+                    <a  href="#home"><b>Home</b>  </a>
+                    <a  href="#post"> <b>Post</b> </a>
+                    <a href="#" ><i  class="fa-brands fa-square-instagram"></i> </a>
+                    <a href="#"> <i   class="fa-brands fa-twitter"></i> </a>
+                    <a href="#"> <i   class="fa-brands fa-linkedin"></i> </a>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+        <section id="home">
+            <div class="w">
+                <h1><b> Places to visit in INDIA </b></h1>
+                <p> Popular destinations in India include the Golden Triangle (Delhi, Agra, Jaipur) for history and iconic landmarks like the Taj Mahal; the serene backwaters of Kerala and lush hills of Munnar for nature lovers; the tranquil beaches and vibrant culture of Goa; and the majestic, snow-capped mountains of Leh-Ladakh.  </p>
+            </div>
+            <div>
+                <img src="img1.png">
+            </div>
+            
+        </section>
+
+        <section id="hero_card">
+            <div class="w">
+                <p> <i>India has a wide range of landscapes ,from kashmir to kanyakumari . varies landscapes of india  include deserts,cold deserts,mountain ranges,rain forests,grass lands,mongrooves,beaches,deltas,platues,vally etc.</i></p>
+                <div id="down">
+                <p> 19/09/2025 </p>
+                <a class="read" href=""> <b>Read Now</b> </a>
+                </div>
+            </div>
+
+            <img src="img2.jpeg">
+        </section>
+
+        <div id="post">
+            <section class="cards">
+                <img src="img5.jpeg">
+                <h3>Araku Valley</h3>
+                <p>Araku Valley is a hill station and valley region in the southeastern Indian state of Andhra Pradesh. It's surrounded by the thick forests of the Eastern Ghats mountain range.</p>
+                <div id="down">
+                <p> 19/09/2025 </p>
+                <a class="read" href=""> <b>Read Now</b> </a>
+                </div>
+            </section>
+
+            <section class="cards">
+                <img src="img3.jpeg">
+                <h3> Ladakh</h3>
+                <p>Ladakh is an Indian union territory known for breathtaking high-altitude desert landscapes and ancient monasteries, located in the Himalayas near Karakoram mountain range.</p>
+                <div id="down">
+                <p> 19/09/2025 </p>
+                <a class="read" href=""> <b>Read Now </b></a>
+                </div>
+            </section>
+
+            <section class="cards">
+                <img src="img4.jpeg">
+                <h3> Darjeeling</h3>
+                <p>Darjeeling is a town in India's West Bengal state, in the Himalayan foothills.it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, completed in 1881.</p>
+                <div id="down">
+                <p> 19/09/2025 </p>
+                <a class="read" href=""> <b>Read Now</b> </a>
+                </div>
+            </section>
+			
+			<section class="cards">
+                <img src="img7.jpeg">
+                <h3> Kerala Backwaters</h3>
+                <p>The Kerala Backwaters are a sprawling, 900 km (560 mile) network of brackish lagoons, lakes, canals, and rivers on the southwestern coast of India.</p>
+                <div id="down">
+                <p> 19/09/2025 </p>
+                <a class="read" href=""> <b>Read Now</b> </a>
+                </div>
+            </section>
+        </div>
+
+        <div id="post">
+            <p class="w">India's vastness offers diverse travel experiences, from Rajasthan's royal forts and the spiritual Ganges in Varanasi to Kerala's backwaters and Ladakh's breathtaking landscapes. You can explore stunning historical monuments like the Taj Mahal, serene hill stations, vibrant beaches, and immerse yourself in rich cultural traditions and lively festivals. </p>
+            <img src="img6.png">
+        </div>
+        </main>
+
+        <footer>
+            <div>
+                <p> @India 2025 all copyrights received</p>
+            </div>
+            <div>
+                <a href="#"> <b>FOLLOW US ON : </b></a>
+                <a href="#" ><i  class="fa-brands fa-square-instagram"></i> </a>
+                    <a href="#"> <i   class="fa-brands fa-twitter"></i> </a>
+                    <a href="#"> <i   class="fa-brands fa-linkedin"></i> </a>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
