@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> places_in_india </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +26,7 @@
                 box-shadow: 1px 1px 10px burlywood;
                 align-items: center;
                 padding: 10px;
+				flex-wrap: wrap;
             }
             
             a{
@@ -31,6 +34,8 @@
                 text-decoration: none;
                 color: black;
                 font-size: 20px;
+				flex-shrink:1;
+				flex-grow:0;
             }
 
             h1{
@@ -44,6 +49,8 @@
                 width: 400px;
                 height: 60px;
                 border-radius: 20px;
+				flex-shrink:1;
+				flex-grow:0;
             }
 
             #home{
@@ -55,11 +62,21 @@
                 justify-content: space-between;
                 align-items: center;
 				align-content:space-evenly;
+				flex-wrap:wrap;
             }
 
             .w{
                 width: 700px;
+				flex-shrink:1;
+				flex-grow:0;
             }
+			#home div img{
+				flex-shrink:1;
+				flex-grow:0;
+				width: 400px;
+                height: 250px;
+                border-radius: 10px;
+			}
             img{
                 width: 400px;
                 height: 250px;
@@ -76,12 +93,15 @@
                 padding: 20px;
                 align-items: center;
                 margin-top: 8px;
+				flex-wrap:wrap;
             }
             #down{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: baseline;
+				flex-shrink:1;
+				flex-grow:0;
             }
 
             #post{
@@ -103,7 +123,10 @@
                 width: 250px;
                 overflow: hidden;
                 padding: 10px;
-                background-color: #D0DDD0; 
+                background-color: #D0DDD0;
+				flex-shrink:1;
+				flex-grow:0;
+				margin:8px
             }
             .cards:hover{
                 transform: scale(1.05);
@@ -115,6 +138,8 @@
                 width: 250px;
                 height: 150px;
                 border-radius: 0px;
+				flex-shrink:1;
+				flex-grow:0;
             }
             .cards h3,p{
                        margin-top: 0;
@@ -130,8 +155,12 @@
                 padding: 20px;
                 margin-top: 8px;
                 background-color: #BBD8A3;
+				flex-wrap:wrap;
             }
-            
+            footer div{
+				flex-shrink:1;
+				flex-grow:0;
+			}
 
 
         </style>
@@ -145,7 +174,7 @@
                 <div>
                     <a  href="#home"><b>Home</b>  </a>
                     <a  href="#post"> <b>Post</b> </a>
-                    <a href="#" ><i  class="fa-brands fa-square-instagram"></i> </a>
+                    <a href="#"><i  class="fa-brands fa-square-instagram"></i> </a>
                     <a href="#"> <i   class="fa-brands fa-twitter"></i> </a>
                     <a href="#"> <i   class="fa-brands fa-linkedin"></i> </a>
                 </div>
@@ -238,4 +267,5 @@
 
 
     </body>
+
 </html>
